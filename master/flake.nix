@@ -11,7 +11,6 @@
   inputs.src-libssh-master.ref   = "refs/heads/master";
   inputs.src-libssh-master.owner = "dariolah";
   inputs.src-libssh-master.repo  = "libssh-nim";
-  inputs.src-libssh-master.dir   = "";
   inputs.src-libssh-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
